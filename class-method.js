@@ -1,6 +1,5 @@
 class Student {
     constructor(name, age) {
-
         this.name = name;
         this.age = age;
         this.school = "IDT High School"
