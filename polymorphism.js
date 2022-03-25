@@ -11,7 +11,6 @@ class Rectangle {
     constructor(width,height){
         this.width=width
         this.height=height
-
     }
     area(){ 
         return this.width*this.height
@@ -21,7 +20,6 @@ class Triangle {
     constructor(ground,height){
         this.ground=ground
         this.height=height
-
     }
     area(){ 
         return 0.5*(this.ground*this.height)
@@ -39,6 +37,4 @@ const shape= [new Circle(5),new Rectangle(10,15),new Triangle(15,4)]
 for (let i = 0; i < shape.length; i++) {
     const element = shape[i];
     console.log(element.area());
-    
-    
 }
